@@ -1,0 +1,93 @@
+// Mixins
+
+// Button sizes
+@mixin button-size($padding-y, $padding-x, $font-size, $line-height, $border-radius) {
+    padding: $padding-y $padding-x;
+    line-height: $line-height;
+  }
+
+// Sizing shortcuts
+
+@mixin size($width, $height: false) {
+    width: $width;
+    height: $height;
+  }
+
+  
+// Fonts
+
+@mixin font($size: false,$color: false,$weight: false,$lh: false) {
+  @if $size {
+    font-size:$size;
+  }
+  @if $color {
+    color:$color;
+  }
+  @if $weight {
+    font-weight:$weight;
+  }
+  @if $lh {
+    line-height:$lh;
+  }
+}
+
+// Flex bloc
+
+@mixin flex ($flex-direction, $align-items: false, $justify: false) {
+  display: flex;
+  @if $flex-direction {
+    flex-direction:$flex-direction;
+  }
+  @if $align-items {
+    align-items:$align-items;
+  }
+  @if $justify {
+    justify-content:$justify;
+  }
+}
+
+// Taille standard d'une container
+
+@mixin container {
+    width: 90%;
+    margin: 0 5%;
+}
+
+@mixin container-fluid {
+  width:100%;
+}
+
+// Theme pour chaque element next - changement de couleur
+@mixin next($background-color) {
+  @include flex(row);
+  background-color:$background-color;
+  padding:12rem 0;
+  transition-duration: 400ms;
+  @media (max-width:$lg) {
+      padding: 6rem 0;
+  }
+  .left-side {
+      padding-left:50%;
+      width: 50%;
+  }
+  @media (max-width:$med) {
+      @include flex(column);
+      p {
+          padding: 1rem 0;
+          text-align: center;
+      }
+  }
+  .right-side {
+      @include flex(row, center, center);
+      .fas {
+          font-size:2rem;
+          padding:1rem 0;
+      }
+  }
+  &:hover {
+      transform: scale(1.02);
+  }
+  p:hover {
+    color:white;
+  }
+}

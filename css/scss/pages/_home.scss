@@ -1,0 +1,137 @@
+#presentation-img {
+    width:100%;
+    margin-top:8rem;
+    @media (max-width: $med) {
+        margin-top: 3rem;
+    }
+}
+
+.welcome-title {
+    font-size:10rem;
+    @media (max-width:$lg) {
+        font-size:5rem;
+    }
+    @media (max-width:$sm) {
+        font-size:3rem;
+    }
+}
+
+#services {
+    display:block;
+}
+
+#mission {
+    background-color:#191919;
+    .highlights {
+        @include flex(row, center, false);
+        flex-wrap: wrap;
+        .notion {
+            padding-bottom:2rem;
+        }
+        .time {
+            padding-bottom:2rem;
+            .super-big-title {
+                padding-left:50%;
+            }
+        }
+    }
+}
+
+#luxeuil-les-bains {
+    background-image:url(../../img/acsan/Acsan-Luxeuil-les-bains-head-img.jpg);
+}
+
+#wide {
+    background-image:url(../../img/wide/Wide-website-head-img.jpg);
+}
+
+#acsan-dev {
+    background-image:url(../../img/acsan/Acsan-development-head-img.jpg);
+}
+
+.head-subtitle {
+    text-align: right;
+    padding-right:5%;
+    margin-top:8rem;
+    h3 {
+        margin-top:1rem;
+    }
+}
+
+.work {
+    width: 100%;
+    @media (max-width:$lg) {
+        width: 90%;
+        margin: 0 auto;
+    }
+    &__item {
+        margin:6rem 0;
+        @media (max-width:$lg) {
+            margin: 3rem 0;
+        }
+        &--link {
+            width: 100%;
+            @include flex(row, normal, center);
+            flex-wrap: wrap;
+            .left-side {
+                @include flex(column, normal, center);
+                width: 23.33%;
+                margin-right: 5%;
+                margin-left: 5%;
+                @media (max-width:$lg) {
+                    order:2;
+                }
+            }
+        }
+        &--title {
+            @media (max-width:$lg) {
+                margin-top:2rem;
+            }
+            &.mobile {
+                display:none;
+                @media (max-width:$lg) {
+                    display: flex;
+                }
+            }
+            &.desktop {
+                display:flex;
+                @media (max-width:$lg) {
+                    display: none;
+                }
+            }
+        }
+        &--subtitle {
+            margin-top:2rem;
+            @media (max-width:$lg) {
+                margin-top:0.75rem;
+            }
+        }
+        &--image {
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:800px;
+            transition: all .2s ease-in-out;
+            transform: initial;
+            @media (max-width:$xl) {
+                height:700px;
+            }
+            @media (max-width:$lg) {
+                order:1;
+                height:600px;
+            }
+            @media (max-width:$med) {
+                height: 600px;
+                background-position-x: center;
+            }
+            @media (max-width:$sm) {
+                height:500px;
+                background-position-x: center;
+            }
+        }
+    }
+}
+
+.middle-txt {
+    width:90%;
+    margin:0 5%;
+}

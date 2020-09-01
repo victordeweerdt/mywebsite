@@ -1,0 +1,174 @@
+#client {
+    padding-top: 10px;
+    p {
+        padding-left:67%;
+        @media (max-width:$med) {
+            padding-left:0%;
+        }
+    }
+}
+
+#color-head {
+    padding:10rem 0;
+    .intro {
+        @include flex(row);
+        @media (max-width:$med) {
+            @include flex(column);
+        }
+    }
+    #year {
+        text-align: right;
+    }
+    #project-title {
+        padding-bottom: 6rem;
+        @media (max-width:$med) {
+            padding-left:0%;
+            padding-top:2rem;
+        }
+    }
+    h1 {
+        padding-right:20%;
+        padding-left:100px;
+        @media (max-width:$med) {
+            padding-left:0;
+            padding-right:0;
+        }
+    }
+    @media (max-width:$med) {
+        padding: 10rem 5% 5rem 5%;
+        width: 90%;
+        margin: 0;
+    }
+}
+
+#head-image {
+    width:100%;
+}
+
+#screens-3 {
+    @media (max-width:$med) {
+        @include flex(column);
+    }
+}
+
+#introduction {
+    p:first-child {
+        padding-bottom:2rem;
+    }
+}
+
+#next-project {
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: row;
+    padding: 10rem 0;
+    @media (max-width:$med) {
+        padding: 5rem 0;
+    }
+}
+
+.content__text {
+    padding: 8rem 20%;
+    width: 60%;
+    @include flex(row);
+    h4 {
+        padding-bottom:2rem;
+    }
+    @media (max-width:$med) {
+        padding: 0;
+        @include flex(column);
+        width:100%;
+    }
+}
+.bloc-1-long-screen {
+    width: 70%;
+    padding: 10rem 10%;
+    margin: 0 5%;
+    background-color: #171717;
+    @media (max-width:$med) {
+        width:90%;
+        padding: 0;
+        margin: 0 5%;
+    }
+}
+
+.content__screen {
+    &--three-full {
+        width:100%;
+    }
+}
+
+.desktop-screen {
+    width:100%;
+    padding-bottom:5rem;
+}
+.desktop-screen-end {
+    width:100%;
+}
+
+.three-screens {
+    @include flex(row, false, space-between);
+    margin: 0 5%;
+    width:90%;
+    img {
+        width:100%;
+    }
+    div {
+        width:32%;
+        @media (max-width:$med) {
+            width:100%;
+            padding-bottom:1rem;
+        }
+    }
+}
+
+.two-img {
+    @include flex(row, false, space-between);
+    flex-wrap: wrap;
+    margin: 0 5%;
+    width:90%;
+    img {
+        width:100%;
+    }
+    div {
+        width:49%;
+        @media (max-width:$med) {
+            width:100%;
+            padding-bottom:1rem;
+        }
+    }
+}
+
+#next-wide {
+    @include next($w-color);
+}
+
+#next-acsan {
+    @include next($acs-color);
+}
+
+.bloc-next-project {
+    width:100%;
+}
+
+.photo-verbatim {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-bottom: 2rem;
+}
+
+#next-project {
+    display: flex;
+    flex-direction: row;
+    transition-duration: 300ms;
+}
+
+#verbatim {
+    .h5 {
+        padding-bottom:2rem;
+    }
+}
