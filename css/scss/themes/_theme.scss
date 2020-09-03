@@ -72,7 +72,7 @@ body {
     flex-wrap:wrap;
     margin:12rem 0;
     @media (max-width:$lg) {
-        margin:6rem 0;
+        margin:9rem 0 6rem;
     }
     &__header {
         margin:0 0 2rem 0;
@@ -258,6 +258,12 @@ body {
         margin:0;
         @include flex(column);
     }
+    &.one-col {
+        @include flex(column);
+        h4 {
+            padding-bottom:2rem;
+        }
+    }
 }
 
 .bloc-60-end {
@@ -274,6 +280,12 @@ body {
         width: 90%;
         margin:0;
         @include flex(column);
+    }
+    &.one-col {
+        @include flex(column);
+        h4 {
+            padding-bottom:2rem;
+        }
     }
 }
 

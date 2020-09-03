@@ -342,7 +342,7 @@ p {
 }
 
 a {
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: #000000;
   font-weight: 400;
   line-height: initial;
@@ -610,6 +610,40 @@ footer {
   }
 }
 
+.two-screens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5%;
+  width: 90%;
+}
+.two-screens img {
+  width: 100%;
+}
+.two-screens div {
+  width: 49%;
+}
+@media (max-width: 640px) {
+  .two-screens div {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+}
+
+.one-screen {
+  display: flex;
+  flex-direction: row;
+  margin: 0 5%;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.one-screen img {
+  width: 100%;
+}
+.one-screen div {
+  width: 100%;
+}
+
 .two-img {
   display: flex;
   flex-direction: row;
@@ -653,7 +687,7 @@ footer {
     flex-direction: column;
   }
   #next-wide p {
-    padding: 1rem 0;
+    padding: 2rem 0;
     text-align: center;
   }
 }
@@ -696,7 +730,7 @@ footer {
     flex-direction: column;
   }
   #next-acsan p {
-    padding: 1rem 0;
+    padding: 2rem 0;
     text-align: center;
   }
 }
@@ -715,6 +749,49 @@ footer {
 }
 #next-acsan p:hover {
   color: white;
+}
+
+#next-llb {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF200;
+  padding: 12rem 0;
+  transition-duration: 400ms;
+}
+@media (max-width: 960px) {
+  #next-llb {
+    padding: 6rem 0;
+  }
+}
+#next-llb .left-side {
+  padding-left: 50%;
+  width: 50%;
+}
+@media (max-width: 640px) {
+  #next-llb {
+    display: flex;
+    flex-direction: column;
+  }
+  #next-llb p {
+    padding: 2rem 0;
+    text-align: center;
+  }
+}
+#next-llb .right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#next-llb .right-side .fas {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+#next-llb:hover {
+  transform: scale(1.02);
+}
+#next-llb p:hover {
+  color: #333333;
 }
 
 .bloc-next-project {
@@ -879,7 +956,7 @@ body {
 }
 @media (max-width: 960px) {
   .content {
-    margin: 6rem 0;
+    margin: 9rem 0 6rem;
   }
 }
 .content__header {
@@ -1100,6 +1177,13 @@ body {
     flex-direction: column;
   }
 }
+.bloc-60.one-col {
+  display: flex;
+  flex-direction: column;
+}
+.bloc-60.one-col h4 {
+  padding-bottom: 2rem;
+}
 
 .bloc-60-end {
   padding: 20rem 20%;
@@ -1122,6 +1206,13 @@ body {
     display: flex;
     flex-direction: column;
   }
+}
+.bloc-60-end.one-col {
+  display: flex;
+  flex-direction: column;
+}
+.bloc-60-end.one-col h4 {
+  padding-bottom: 2rem;
 }
 
 .bloc-gallery {

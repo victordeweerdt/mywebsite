@@ -130,7 +130,7 @@ p {
 }
 
 a {
-    @include font($font-size-base*0.75, $black, 400, initial);
+    @include font($font-size-base, $black, 400, initial);
     @media (min-width:$lg) {
         @include font($font-size-base, $black, 400, initial);
     }

@@ -817,16 +817,45 @@ footer {
   padding-bottom: 2rem;
 }
 
-#color-head {
-  background-color: #FFF200;
+body {
+  background-color: #FFFFFF;
 }
 
-#project-content {
-  background: #202020;
+#project-head {
+  padding-top: 70px;
+  background-color: #242B33;
+}
+#project-head .intro {
+  display: flex;
+  flex-direction: row;
+  padding: 8rem 0 8rem 0;
+}
+@media (max-width: 640px) {
+  #project-head .intro {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#project-head #year {
+  text-align: right;
+}
+#project-head #project-title {
+  padding-left: 6%;
+  width: 70%;
+  padding-bottom: 6rem;
+}
+@media (max-width: 640px) {
+  #project-head #project-title {
+    padding-left: 0%;
+    padding-top: 2rem;
+  }
+}
+#project-head h1 {
+  padding-right: 20%;
 }
 
-#third-txt h4 {
-  padding-bottom: 2rem;
+#two-screens {
+  margin-top: 2rem;
 }
 
 body {
@@ -1346,4 +1375,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=llb.css.map */
+/*# sourceMappingURL=acsan-dev.css.map */

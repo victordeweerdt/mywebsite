@@ -58,7 +58,7 @@
 }
 
 // Theme pour chaque element next - changement de couleur
-@mixin next($background-color) {
+@mixin next($background-color, $color-link) {
   @include flex(row);
   background-color:$background-color;
   padding:12rem 0;
@@ -73,7 +73,7 @@
   @media (max-width:$med) {
       @include flex(column);
       p {
-          padding: 1rem 0;
+          padding: 2rem 0;
           text-align: center;
       }
   }
@@ -88,6 +88,6 @@
       transform: scale(1.02);
   }
   p:hover {
-    color:white;
+    color:$color-link;
   }
 }

@@ -123,6 +123,35 @@
     }
 }
 
+.two-screens {
+    @include flex(row, false, space-between);
+    margin: 0 5%;
+    width:90%;
+    img {
+        width:100%;
+    }
+    div {
+        width:49%;
+        @media (max-width:$med) {
+            width:100%;
+            padding-bottom:1rem;
+        }
+    }
+}
+
+.one-screen {
+    @include flex(row);
+    margin: 0 5%;
+    width:90%;
+    flex-wrap: wrap;
+    img {
+        width:100%;
+    }
+    div {
+        width:100%;
+    }
+}
+
 .two-img {
     @include flex(row, false, space-between);
     flex-wrap: wrap;
@@ -141,11 +170,15 @@
 }
 
 #next-wide {
-    @include next($w-color);
+    @include next($w-color, white);
 }
 
 #next-acsan {
-    @include next($acs-color);
+    @include next($acs-color, white);
+}
+
+#next-llb {
+    @include next($llb-color, $dark-font);
 }
 
 .bloc-next-project {
