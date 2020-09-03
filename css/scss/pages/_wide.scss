@@ -36,3 +36,13 @@ body {
 #verbatim-lucie {
     background-image: url(../../img/wide/Wide-Lucie-Sarfati.jpeg);
 }
+
+header {
+    background-color:$w-color;
+    a {
+        color:white;
+    }
+    .main-logo {
+        content: url("../../img/logo-white-victor-deweerdt.svg");
+    }
+}

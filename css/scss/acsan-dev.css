@@ -364,7 +364,6 @@ a :hover {
   flex-direction: row;
   left: 0;
   right: 0;
-  background-color: white;
 }
 
 .header-white {
@@ -551,7 +550,7 @@ footer {
   width: 70%;
   padding: 10rem 10%;
   margin: 0 5%;
-  background-color: #171717;
+  background-color: #F2F2F2;
 }
 @media (max-width: 640px) {
   .bloc-1-long-screen {
@@ -840,6 +839,16 @@ body {
 
 #two-screens {
   margin-top: 2rem;
+}
+
+header {
+  background-color: #242B33;
+}
+header a {
+  color: white;
+}
+header .main-logo {
+  content: url("../../img/logo-white-victor-deweerdt.svg");
 }
 
 body {
@@ -1240,6 +1249,14 @@ body {
     padding: 5rem 5%;
     margin: 0;
   }
+}
+
+.bloc-img {
+  align-items: flex-start;
+  width: 100%;
+}
+.bloc-img img {
+  height: auto;
 }
 
 .c-12 {

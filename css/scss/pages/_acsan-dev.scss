@@ -32,3 +32,13 @@ body {
 #two-screens {
     margin-top:2rem;
 }
+
+header {
+    background-color: $acs-color;
+    a {
+        color:white;
+    }
+    .main-logo {
+        content: url("../../img/logo-white-victor-deweerdt.svg");
+    }
+}

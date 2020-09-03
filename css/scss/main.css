@@ -364,7 +364,6 @@ a :hover {
   flex-direction: row;
   left: 0;
   right: 0;
-  background-color: white;
 }
 
 .header-white {
@@ -1020,6 +1019,14 @@ body {
     padding: 5rem 5%;
     margin: 0;
   }
+}
+
+.bloc-img {
+  align-items: flex-start;
+  width: 100%;
+}
+.bloc-img img {
+  height: auto;
 }
 
 .c-12 {
