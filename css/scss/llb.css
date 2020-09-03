@@ -50,10 +50,18 @@ table {
 }
 
 h1 {
-  font-size: 4.25rem;
+  font-size: 3.75rem;
   color: #3b3b3b;
   font-weight: 400;
   line-height: initial;
+}
+@media (min-width: 448px) {
+  h1 {
+    font-size: 4.25rem;
+    color: #3b3b3b;
+    font-weight: 400;
+    line-height: initial;
+  }
 }
 @media (min-width: 960px) {
   h1 {
@@ -73,10 +81,18 @@ h1 {
 }
 
 .h1 {
-  font-size: 4.25rem;
+  font-size: 3.75rem;
   color: #3b3b3b;
   font-weight: 400;
   line-height: initial;
+}
+@media (min-width: 448px) {
+  .h1 {
+    font-size: 4.25rem;
+    color: #3b3b3b;
+    font-weight: 400;
+    line-height: initial;
+  }
 }
 @media (min-width: 960px) {
   .h1 {
@@ -268,6 +284,14 @@ a :hover {
   flex-direction: row;
   left: 0;
   right: 0;
+}
+@media (max-width: 640px) {
+  .header a {
+    font-size: 0.9375rem;
+  }
+}
+.header a {
+  font-size: 1.25rem;
 }
 
 .header-white {
@@ -514,6 +538,13 @@ footer {
   .two-screens div {
     width: 100%;
     padding-bottom: 1rem;
+  }
+}
+@media (max-width: 640px) {
+  .two-screens {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 
@@ -1105,6 +1136,12 @@ body {
 .bloc-gallery .gallery-viewport .gallery-slider div img {
   max-width: 600px;
   max-height: 600px;
+}
+@media (max-width: 640px) {
+  .bloc-gallery .gallery-viewport .gallery-slider div img {
+    max-width: 350px;
+    max-height: 350px;
+  }
 }
 @media (max-width: 640px) {
   .bloc-gallery {

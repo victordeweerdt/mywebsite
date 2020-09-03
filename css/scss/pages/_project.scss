@@ -137,6 +137,9 @@
             padding-bottom:1rem;
         }
     }
+    @media (max-width:$med) {
+        @include flex(column, false, space-between);
+    }
 }
 
 .one-screen {

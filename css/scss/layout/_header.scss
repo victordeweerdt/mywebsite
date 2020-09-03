@@ -7,6 +7,14 @@
     @include flex(row);
     left: 0;
     right: 0;
+    @media (max-width:$med) {
+        a {
+            font-size: $font-size-base*0.75;
+        }
+    }
+    a {
+        font-size: $font-size-base;
+    }
 }
 
 .header-white {
