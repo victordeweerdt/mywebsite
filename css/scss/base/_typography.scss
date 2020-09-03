@@ -2,10 +2,7 @@
 
 
 h1 {
-    @include font($h1-font-size*0.6, #3b3b3b, 400, initial);
-    @media (min-width:$sm) {
-        @include font($h1-font-size*0.75, #3b3b3b, 400, initial);        
-    }
+    @include font($h1-font-size*0.75, #3b3b3b, 400, initial);
     @media (min-width:$lg) {
         @include font($h1-font-size, #3b3b3b, 400, initial);
     }
@@ -15,10 +12,7 @@ h1 {
 }
 
 .h1 {
-    @include font($h1-font-size*0.6, #3b3b3b, 400, initial);
-    @media (min-width:$sm) {
-        @include font($h1-font-size*0.75, #3b3b3b, 400, initial);        
-    }
+    @include font($h1-font-size*0.75, #3b3b3b, 400, initial);
     @media (min-width:$lg) {
         @include font($h1-font-size, #3b3b3b, 400, initial);
     }
