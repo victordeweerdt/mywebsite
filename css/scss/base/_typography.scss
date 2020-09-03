@@ -2,7 +2,7 @@
 
 
 h1 {
-    @include font($h1-font-size*0.75, #3b3b3b, 400, initial);
+    @include font($h1-font-size*0.85, #3b3b3b, 400, initial);
     @media (min-width:$lg) {
         @include font($h1-font-size, #3b3b3b, 400, initial);
     }
@@ -12,7 +12,7 @@ h1 {
 }
 
 .h1 {
-    @include font($h1-font-size*0.75, #3b3b3b, 400, initial);
+    @include font($h1-font-size*0.85, #3b3b3b, 400, initial);
     @media (min-width:$lg) {
         @include font($h1-font-size, #3b3b3b, 400, initial);
     }
@@ -22,30 +22,21 @@ h1 {
 }
 
 h2 {
-    @include font($h2-font-size*0.75, #3b3b3b, 500, initial);
-    @media (min-width:$lg) {
-        @include font($h2-font-size, #3b3b3b, 500, initial);
-    }
+    @include font($h2-font-size, #3b3b3b, 500, initial);
     @media (min-width:$xl) {
         @include font($h2-font-size*1.25, #3b3b3b, 500, initial);
     }
 }
 
 .h2 {
-    @include font($h2-font-size*0.75, #3b3b3b, 500, initial);
-    @media (min-width:$lg) {
-        @include font($h2-font-size, #3b3b3b, 500, initial);
-    }
+    @include font($h2-font-size, #3b3b3b, 500, initial);
     @media (min-width:$xl) {
         @include font($h2-font-size*1.25, #3b3b3b, 500, initial);
     }
 }
 
 h3 {
-    @include font($h3-font-size*0.75, $black, 400, initial);
-    @media (min-width:$lg) {
-        @include font($h3-font-size, $black, 400, initial);
-    }
+    @include font($h3-font-size, $black, 400, initial);
     @media (min-width:$xl) {
         @include font($h3-font-size*1.25, $black, 400, initial);
     }
@@ -53,74 +44,47 @@ h3 {
 
 // Class h3
 .h3 {
-    @include font($h3-font-size*0.75, $black, 400, initial);
-    @media (min-width:$lg) {
-        @include font($h3-font-size, $black, 400, initial);
-    }
+    @include font($h3-font-size, $black, 400, initial);
     @media (min-width:$xl) {
         @include font($h3-font-size*1.25, $black, 400, initial);
     }
 }
 
 h4 {
-    @include font($h4-font-size*0.75, $black, 400, initial);
+    @include font($h4-font-size*0.85, $black, 400, 3.5rem);
     @media (min-width:$lg) {
-        @include font($h4-font-size, $black, 400, initial);
-    }
-    @media (min-width:$xl) {
-        @include font($h4-font-size*1.25, $black, 400, initial);
+        @include font($h4-font-size*1.25, $black, 400, 3.5rem*1.25);
     }
 }
 
 .h4 {
-    @include font($h4-font-size*0.75, $black, 400, initial);
+    @include font($h4-font-size*0.85, $black, 400, initial);
     @media (min-width:$lg) {
-        @include font($h4-font-size, $black, 400, initial);
-    }
-    @media (min-width:$xl) {
-        @include font($h4-font-size*1.25, $black, 400, initial);
+        @include font($h4-font-size*1.25, $black, 400, 3.5rem*1.25);
     }
 }
 
 h5 {
-    @include font($h5-font-size*0.75, $black, 400, initial);
-    @media (min-width:$lg) {
-        @include font($h5-font-size, $black, 400, initial);
-    }
+    @include font($h5-font-size, $black, 400, 2rem);
     @media (min-width:$xl) {
-        @include font($h5-font-size*1.25, $black, 400, initial);
+        @include font($h5-font-size*1.25, $black, 400, 2rem*1.25);
     }
 }
 
 .h5 {
-    @include font($h5-font-size*0.75, $black, 400, $h5-font-size*1.15);
-    @media (min-width:$lg) {
-        @include font($h5-font-size, $black, 400, $h5-font-size*1.5);
-    }
+    @include font($h5-font-size, $black, 400, 2rem);
     @media (min-width:$xl) {
-        @include font($h5-font-size*1.25, $black, 400, $h5-font-size*1.75);
+        @include font($h5-font-size*1.25, $black, 400, 2rem*1.25);
     }
 }
 
 
 p {
-    @include font($font-size-base, $black, 400, 1.6rem);
-    @media (min-width:$lg) {
-        @include font($font-size-base, $black, 400, 1.6rem);
-    }
-    @media (min-width:$xl) {
-        @include font($font-size-base*1.25, $black, 400, 1.6rem*1.25);
-    }
+    @include font($font-size-base, $black, 400, 2rem);
 }
 
 .p {
-    @include font($font-size-base, $black, 400, 1.6rem);
-    @media (min-width:$lg) {
-        @include font($font-size-base, $black, 400, 1.6rem);
-    }
-    @media (min-width:$xl) {
-        @include font($font-size-base*1.25, $black, 400, 1.6rem*1.25);
-    }
+    @include font($font-size-base, $black, 400, 2rem);
 }
 
 a {

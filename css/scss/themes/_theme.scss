@@ -37,6 +37,10 @@ body {
     padding: 20rem 0;
     @media (max-width:$lg) {
         padding: 10rem 0;
+        @include flex(column);
+        h4 {
+            margin-bottom:2rem;
+        }
     }
 }
 
@@ -260,9 +264,9 @@ body {
     }
     &.one-col {
         @include flex(column);
-        h4 {
-            padding-bottom:2rem;
-        }
+    }
+    h4 {
+        padding-bottom:2rem;
     }
 }
 

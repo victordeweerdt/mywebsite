@@ -2,31 +2,8 @@ body {
     background-color:#FFFFFF;
 }
 
-#project-head {
-    padding-top: 70px;
+#color-head {
     background-color: $w-color;
-    .intro {
-        @include flex(row);
-        padding:8rem 0 8rem 0;
-        @media (max-width:$med) {
-            @include flex(column);
-        }
-    }
-    #year {
-        text-align: right;
-    }
-    #project-title {
-        padding-left: 6%;
-        width: 70%;
-        padding-bottom: 6rem;
-        @media (max-width:$med) {
-            padding-left:0%;
-            padding-top:2rem;
-        }
-    }
-    h1 {
-        padding-right:20%;
-    }
 }
 
 #three-screens {
@@ -41,6 +18,9 @@ header {
     background-color:$w-color;
     a {
         color:white;
+        :hover {
+            color:white;
+        }
     }
     .main-logo {
         content: url("../../img/logo-white-victor-deweerdt.svg");

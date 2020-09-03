@@ -50,14 +50,14 @@ table {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4.25rem;
   color: #3b3b3b;
   font-weight: 400;
   line-height: initial;
 }
 @media (min-width: 960px) {
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     color: #3b3b3b;
     font-weight: 400;
     line-height: initial;
@@ -65,7 +65,7 @@ h1 {
 }
 @media (min-width: 1400px) {
   h1 {
-    font-size: 5rem;
+    font-size: 6.25rem;
     color: #3b3b3b;
     font-weight: 400;
     line-height: initial;
@@ -73,20 +73,12 @@ h1 {
 }
 
 .h1 {
-  font-size: 3rem;
+  font-size: 4.25rem;
   color: #3b3b3b;
   font-weight: 400;
   line-height: initial;
 }
 @media (min-width: 960px) {
-  .h1 {
-    font-size: 4rem;
-    color: #3b3b3b;
-    font-weight: 400;
-    line-height: initial;
-  }
-}
-@media (min-width: 1400px) {
   .h1 {
     font-size: 5rem;
     color: #3b3b3b;
@@ -94,24 +86,24 @@ h1 {
     line-height: initial;
   }
 }
+@media (min-width: 1400px) {
+  .h1 {
+    font-size: 6.25rem;
+    color: #3b3b3b;
+    font-weight: 400;
+    line-height: initial;
+  }
+}
 
 h2 {
-  font-size: 1.125rem;
+  font-size: 1.875rem;
   color: #3b3b3b;
   font-weight: 500;
   line-height: initial;
 }
-@media (min-width: 960px) {
-  h2 {
-    font-size: 1.5rem;
-    color: #3b3b3b;
-    font-weight: 500;
-    line-height: initial;
-  }
-}
 @media (min-width: 1400px) {
   h2 {
-    font-size: 1.875rem;
+    font-size: 2.34375rem;
     color: #3b3b3b;
     font-weight: 500;
     line-height: initial;
@@ -119,22 +111,14 @@ h2 {
 }
 
 .h2 {
-  font-size: 1.125rem;
+  font-size: 1.875rem;
   color: #3b3b3b;
   font-weight: 500;
   line-height: initial;
 }
-@media (min-width: 960px) {
-  .h2 {
-    font-size: 1.5rem;
-    color: #3b3b3b;
-    font-weight: 500;
-    line-height: initial;
-  }
-}
 @media (min-width: 1400px) {
   .h2 {
-    font-size: 1.875rem;
+    font-size: 2.34375rem;
     color: #3b3b3b;
     font-weight: 500;
     line-height: initial;
@@ -142,22 +126,14 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: #000000;
   font-weight: 400;
   line-height: initial;
 }
-@media (min-width: 960px) {
-  h3 {
-    font-size: 2rem;
-    color: #000000;
-    font-weight: 400;
-    line-height: initial;
-  }
-}
 @media (min-width: 1400px) {
   h3 {
-    font-size: 2.5rem;
+    font-size: 3.125rem;
     color: #000000;
     font-weight: 400;
     line-height: initial;
@@ -165,22 +141,14 @@ h3 {
 }
 
 .h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: #000000;
   font-weight: 400;
   line-height: initial;
 }
-@media (min-width: 960px) {
-  .h3 {
-    font-size: 2rem;
-    color: #000000;
-    font-weight: 400;
-    line-height: initial;
-  }
-}
 @media (min-width: 1400px) {
   .h3 {
-    font-size: 2.5rem;
+    font-size: 3.125rem;
     color: #000000;
     font-weight: 400;
     line-height: initial;
@@ -188,145 +156,81 @@ h3 {
 }
 
 h4 {
-  font-size: 1.875rem;
+  font-size: 2.65625rem;
   color: #000000;
   font-weight: 400;
-  line-height: initial;
+  line-height: 3.5rem;
 }
 @media (min-width: 960px) {
   h4 {
-    font-size: 2.5rem;
+    font-size: 3.90625rem;
     color: #000000;
     font-weight: 400;
-    line-height: initial;
-  }
-}
-@media (min-width: 1400px) {
-  h4 {
-    font-size: 3.125rem;
-    color: #000000;
-    font-weight: 400;
-    line-height: initial;
+    line-height: 4.375rem;
   }
 }
 
 .h4 {
-  font-size: 1.875rem;
+  font-size: 2.65625rem;
   color: #000000;
   font-weight: 400;
   line-height: initial;
 }
 @media (min-width: 960px) {
   .h4 {
-    font-size: 2.5rem;
+    font-size: 3.90625rem;
     color: #000000;
     font-weight: 400;
-    line-height: initial;
-  }
-}
-@media (min-width: 1400px) {
-  .h4 {
-    font-size: 3.125rem;
-    color: #000000;
-    font-weight: 400;
-    line-height: initial;
+    line-height: 4.375rem;
   }
 }
 
 h5 {
-  font-size: 0.975rem;
+  font-size: 1.625rem;
   color: #000000;
   font-weight: 400;
-  line-height: initial;
-}
-@media (min-width: 960px) {
-  h5 {
-    font-size: 1.3rem;
-    color: #000000;
-    font-weight: 400;
-    line-height: initial;
-  }
+  line-height: 2rem;
 }
 @media (min-width: 1400px) {
   h5 {
-    font-size: 1.625rem;
+    font-size: 2.03125rem;
     color: #000000;
     font-weight: 400;
-    line-height: initial;
+    line-height: 2.5rem;
   }
 }
 
 .h5 {
-  font-size: 0.975rem;
+  font-size: 1.625rem;
   color: #000000;
   font-weight: 400;
-  line-height: 1.495rem;
-}
-@media (min-width: 960px) {
-  .h5 {
-    font-size: 1.3rem;
-    color: #000000;
-    font-weight: 400;
-    line-height: 1.95rem;
-  }
+  line-height: 2rem;
 }
 @media (min-width: 1400px) {
   .h5 {
-    font-size: 1.625rem;
+    font-size: 2.03125rem;
     color: #000000;
     font-weight: 400;
-    line-height: 2.275rem;
+    line-height: 2.5rem;
   }
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #000000;
   font-weight: 400;
-  line-height: 1.6rem;
-}
-@media (min-width: 960px) {
-  p {
-    font-size: 1rem;
-    color: #000000;
-    font-weight: 400;
-    line-height: 1.6rem;
-  }
-}
-@media (min-width: 1400px) {
-  p {
-    font-size: 1.25rem;
-    color: #000000;
-    font-weight: 400;
-    line-height: 2rem;
-  }
+  line-height: 2rem;
 }
 
 .p {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #000000;
   font-weight: 400;
-  line-height: 1.6rem;
-}
-@media (min-width: 960px) {
-  .p {
-    font-size: 1rem;
-    color: #000000;
-    font-weight: 400;
-    line-height: 1.6rem;
-  }
-}
-@media (min-width: 1400px) {
-  .p {
-    font-size: 1.25rem;
-    color: #000000;
-    font-weight: 400;
-    line-height: 2rem;
-  }
+  line-height: 2rem;
 }
 
 a {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #000000;
   font-weight: 400;
   line-height: initial;
@@ -335,7 +239,7 @@ a {
 }
 @media (min-width: 960px) {
   a {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #000000;
     font-weight: 400;
     line-height: initial;
@@ -343,7 +247,7 @@ a {
 }
 @media (min-width: 1400px) {
   a {
-    font-size: 1.25rem;
+    font-size: 1.5625rem;
     color: #000000;
     font-weight: 400;
     line-height: initial;
@@ -399,7 +303,7 @@ a :hover {
   justify-content: flex-end;
 }
 .menu li:first-child {
-  padding-right: 70px;
+  padding-right: 30px;
 }
 @media (max-width: 448px) {
   .menu li:first-child {
@@ -671,6 +575,11 @@ body {
 @media (max-width: 960px) {
   .container {
     padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .container h4 {
+    margin-bottom: 2rem;
   }
 }
 
@@ -940,7 +849,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.bloc-60.one-col h4 {
+.bloc-60 h4 {
   padding-bottom: 2rem;
 }
 
