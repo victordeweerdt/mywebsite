@@ -599,7 +599,7 @@ footer {
   padding-left: 50%;
   width: 50%;
 }
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   #next-wide {
     display: flex;
     flex-direction: column;
@@ -642,7 +642,7 @@ footer {
   padding-left: 50%;
   width: 50%;
 }
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   #next-acsan {
     display: flex;
     flex-direction: column;
@@ -685,7 +685,7 @@ footer {
   padding-left: 50%;
   width: 50%;
 }
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   #next-llb {
     display: flex;
     flex-direction: column;

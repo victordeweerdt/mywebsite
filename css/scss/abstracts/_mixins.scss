@@ -70,7 +70,7 @@
       padding-left:50%;
       width: 50%;
   }
-  @media (max-width:$med) {
+  @media (max-width:$lg) {
       @include flex(column);
       p {
           padding: 2rem 0;
