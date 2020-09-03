@@ -112,31 +112,33 @@ h1 {
 }
 
 h2 {
-  font-size: 1.875rem;
+  font-size: 1.25rem;
   color: #3b3b3b;
-  font-weight: 500;
+  font-weight: 700;
   line-height: initial;
+  text-transform: uppercase;
 }
 @media (min-width: 1400px) {
   h2 {
-    font-size: 2.34375rem;
+    font-size: 1.5625rem;
     color: #3b3b3b;
-    font-weight: 500;
+    font-weight: 700;
     line-height: initial;
   }
 }
 
 .h2 {
-  font-size: 1.875rem;
+  font-size: 1.25rem;
   color: #3b3b3b;
-  font-weight: 500;
+  font-weight: 700;
   line-height: initial;
+  text-transform: uppercase;
 }
 @media (min-width: 1400px) {
   .h2 {
-    font-size: 2.34375rem;
+    font-size: 1.5625rem;
     color: #3b3b3b;
-    font-weight: 500;
+    font-weight: 700;
     line-height: initial;
   }
 }
@@ -172,32 +174,32 @@ h3 {
 }
 
 h4 {
-  font-size: 2.65625rem;
+  font-size: 1.875rem;
   color: #000000;
   font-weight: 400;
-  line-height: 3.5rem;
+  line-height: 2.5rem;
 }
 @media (min-width: 960px) {
   h4 {
-    font-size: 3.90625rem;
+    font-size: 3.125rem;
     color: #000000;
     font-weight: 400;
-    line-height: 4.375rem;
+    line-height: 3.5rem;
   }
 }
 
 .h4 {
-  font-size: 2.65625rem;
+  font-size: 1.875rem;
   color: #000000;
   font-weight: 400;
-  line-height: initial;
+  line-height: 2.5rem;
 }
 @media (min-width: 960px) {
   .h4 {
-    font-size: 3.90625rem;
+    font-size: 2.8125rem;
     color: #000000;
     font-weight: 400;
-    line-height: 4.375rem;
+    line-height: 3.15rem;
   }
 }
 
@@ -205,14 +207,14 @@ h5 {
   font-size: 1.625rem;
   color: #000000;
   font-weight: 400;
-  line-height: 2rem;
+  line-height: 2.3rem;
 }
 @media (min-width: 1400px) {
   h5 {
     font-size: 2.03125rem;
     color: #000000;
     font-weight: 400;
-    line-height: 2.5rem;
+    line-height: 2.875rem;
   }
 }
 
@@ -220,14 +222,14 @@ h5 {
   font-size: 1.625rem;
   color: #000000;
   font-weight: 400;
-  line-height: 2rem;
+  line-height: 2.3rem;
 }
 @media (min-width: 1400px) {
   .h5 {
     font-size: 2.03125rem;
     color: #000000;
     font-weight: 400;
-    line-height: 2.5rem;
+    line-height: 2.875rem;
   }
 }
 
@@ -284,14 +286,15 @@ a :hover {
   flex-direction: row;
   left: 0;
   right: 0;
+  z-index: 1000;
+}
+.header a {
+  font-size: 1.25rem;
 }
 @media (max-width: 640px) {
   .header a {
     font-size: 0.9375rem;
   }
-}
-.header a {
-  font-size: 1.25rem;
 }
 
 .header-white {
@@ -305,9 +308,16 @@ a :hover {
   flex-direction: row;
   left: 0;
   right: 0;
+  z-index: 1000;
 }
 .header-white a {
   color: #ffffff;
+  font-size: 1.25rem;
+}
+@media (max-width: 640px) {
+  .header-white a {
+    font-size: 0.9375rem;
+  }
 }
 
 .main-nav {
@@ -376,14 +386,6 @@ footer {
 #client {
   padding-top: 10px;
 }
-#client p {
-  padding-left: 67%;
-}
-@media (max-width: 640px) {
-  #client p {
-    padding-left: 0%;
-  }
-}
 
 #color-head {
   padding: 10rem 0;
@@ -391,11 +393,15 @@ footer {
 #color-head .intro {
   display: flex;
   flex-direction: row;
+  width: 90%;
+  margin: 0 5%;
 }
 @media (max-width: 640px) {
   #color-head .intro {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin: 0;
   }
 }
 #color-head #year {
@@ -412,7 +418,6 @@ footer {
 }
 #color-head h1 {
   padding-right: 20%;
-  padding-left: 100px;
 }
 @media (max-width: 640px) {
   #color-head h1 {
@@ -551,7 +556,7 @@ footer {
 .one-screen {
   display: flex;
   flex-direction: row;
-  margin: 0 5%;
+  margin: 0 5% 1rem;
   width: 90%;
   flex-wrap: wrap;
 }
@@ -587,7 +592,7 @@ footer {
   display: flex;
   flex-direction: row;
   background-color: #f02435;
-  padding: 12rem 0;
+  padding: 14rem 0;
   transition-duration: 400ms;
 }
 @media (max-width: 960px) {
@@ -630,7 +635,7 @@ footer {
   display: flex;
   flex-direction: row;
   background-color: #242B33;
-  padding: 12rem 0;
+  padding: 14rem 0;
   transition-duration: 400ms;
 }
 @media (max-width: 960px) {
@@ -673,7 +678,7 @@ footer {
   display: flex;
   flex-direction: row;
   background-color: #FFF200;
-  padding: 12rem 0;
+  padding: 14rem 0;
   transition-duration: 400ms;
 }
 @media (max-width: 960px) {
@@ -731,8 +736,10 @@ footer {
   transition-duration: 300ms;
 }
 
-#verbatim .h5 {
-  padding-bottom: 2rem;
+@media (max-width: 640px) {
+  #verbatim h5 {
+    padding-top: 2rem;
+  }
 }
 
 #color-head {
@@ -749,6 +756,10 @@ footer {
 
 header {
   background-color: #FFF200;
+}
+
+.bloc-1-long-screen {
+  background-color: #FFFDD4;
 }
 
 body {
@@ -854,12 +865,7 @@ body {
   }
 }
 .content__header {
-  margin: 0 0 2rem 0;
-}
-@media (max-width: 960px) {
-  .content__header {
-    margin: 0 0 2rem 0;
-  }
+  margin: 0;
 }
 .content__elements {
   margin-top: 6rem;
@@ -998,6 +1004,10 @@ body {
   color: #C9C9C9;
 }
 
+#projets {
+  margin: 10rem 0;
+}
+
 .big-p {
   font-size: 3.5rem;
   line-height: 4.5rem;
@@ -1011,13 +1021,7 @@ body {
 @media (max-width: 640px) {
   .big-p {
     font-size: 2rem;
-    line-height: 3rem;
-  }
-}
-@media (max-width: 448px) {
-  .big-p {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    line-height: 2.8rem;
   }
 }
 
@@ -1043,10 +1047,42 @@ body {
   flex-direction: row;
   padding: 20rem 0;
 }
+@media (max-width: 640px) {
+  .bloc-100 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 960px) {
   .bloc-100 {
     padding: 10rem 0;
   }
+}
+.bloc-100 h4 {
+  padding-bottom: 1rem;
+  padding-right: 10%;
+}
+
+.bloc-100-toppadding {
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: row;
+  padding: 20rem 0 0;
+}
+@media (max-width: 640px) {
+  .bloc-100-toppadding {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 960px) {
+  .bloc-100-toppadding {
+    padding: 10rem 0 0;
+  }
+}
+.bloc-100-toppadding h4 {
+  padding-bottom: 1rem;
 }
 
 .bloc-60 {
@@ -1076,7 +1112,8 @@ body {
   flex-direction: column;
 }
 .bloc-60 h4 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 10%;
 }
 
 .bloc-60-end {
@@ -1121,6 +1158,11 @@ body {
   touch-action: pan-y;
   overflow: hidden;
   cursor: grab;
+}
+@media (max-width: 640px) {
+  .bloc-gallery .gallery-viewport {
+    height: 350px;
+  }
 }
 .bloc-gallery .gallery-viewport .gallery-slider {
   display: flex;

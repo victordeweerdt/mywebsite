@@ -7,13 +7,14 @@
     @include flex(row);
     left: 0;
     right: 0;
+    z-index: 1000;
+    a {
+        font-size: $font-size-base;
+    }
     @media (max-width:$med) {
         a {
             font-size: $font-size-base*0.75;
         }
-    }
-    a {
-        font-size: $font-size-base;
     }
 }
 
@@ -26,8 +27,15 @@
     @include flex(row);
     left: 0;
     right: 0;
+    z-index: 1000;
     a {
         color:$white;
+        font-size: $font-size-base;
+    }
+    @media (max-width:$med) {
+        a {
+            font-size: $font-size-base*0.75;
+        }
     }
 }
 

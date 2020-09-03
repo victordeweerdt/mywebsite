@@ -1,19 +1,17 @@
 #client {
     padding-top: 10px;
-    p {
-        padding-left:67%;
-        @media (max-width:$med) {
-            padding-left:0%;
-        }
-    }
 }
 
 #color-head {
     padding:10rem 0;
     .intro {
         @include flex(row);
+        width:90%;
+        margin: 0 5%;
         @media (max-width:$med) {
             @include flex(column);
+            width:100%;
+            margin: 0;
         }
     }
     #year {
@@ -28,7 +26,6 @@
     }
     h1 {
         padding-right:20%;
-        padding-left:100px;
         @media (max-width:$med) {
             padding-left:0;
             padding-right:0;
@@ -144,7 +141,7 @@
 
 .one-screen {
     @include flex(row);
-    margin: 0 5%;
+    margin: 0 5% 1rem;
     width:90%;
     flex-wrap: wrap;
     img {
@@ -204,7 +201,9 @@
 }
 
 #verbatim {
-    .h5 {
-        padding-bottom:2rem;
+    @media (max-width:$med) {
+        h5 {
+            padding-top:2rem;
+        }
     }
 }

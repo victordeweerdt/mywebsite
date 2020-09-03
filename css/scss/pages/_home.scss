@@ -10,6 +10,10 @@
     display:block;
 }
 
+header {
+    background-color: white;
+}
+
 #mission {
     background-color:#191919;
     .highlights {
@@ -94,7 +98,7 @@
         &--subtitle {
             margin-top:2rem;
             @media (max-width:$lg) {
-                margin-top:0.75rem;
+                margin-top:0.25rem;
                 padding: 0 5%;
             }
         }

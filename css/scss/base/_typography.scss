@@ -28,16 +28,18 @@ h1 {
 }
 
 h2 {
-    @include font($h2-font-size, #3b3b3b, 500, initial);
+    @include font($h2-font-size, #3b3b3b, 700, initial);
+    text-transform: uppercase;
     @media (min-width:$xl) {
-        @include font($h2-font-size*1.25, #3b3b3b, 500, initial);
+        @include font($h2-font-size*1.25, #3b3b3b, 700, initial);
     }
 }
 
 .h2 {
-    @include font($h2-font-size, #3b3b3b, 500, initial);
+    @include font($h2-font-size, #3b3b3b, 700, initial);
+    text-transform: uppercase;
     @media (min-width:$xl) {
-        @include font($h2-font-size*1.25, #3b3b3b, 500, initial);
+        @include font($h2-font-size*1.25, #3b3b3b, 700, initial);
     }
 }
 
@@ -57,30 +59,30 @@ h3 {
 }
 
 h4 {
-    @include font($h4-font-size*0.85, $black, 400, 3.5rem);
+    @include font($h4-font-size*0.6, $black, 400, 2.5rem);
     @media (min-width:$lg) {
-        @include font($h4-font-size*1.25, $black, 400, 3.5rem*1.25);
+        @include font($h4-font-size, $black, 400, 3.5rem);
     }
 }
 
 .h4 {
-    @include font($h4-font-size*0.85, $black, 400, initial);
+    @include font($h4-font-size*0.6, $black, 400, 2.5rem);
     @media (min-width:$lg) {
-        @include font($h4-font-size*1.25, $black, 400, 3.5rem*1.25);
+        @include font($h4-font-size*0.9, $black, 400, 3.5rem*0.9);
     }
 }
 
 h5 {
-    @include font($h5-font-size, $black, 400, 2rem);
+    @include font($h5-font-size, $black, 400, 2.3rem);
     @media (min-width:$xl) {
-        @include font($h5-font-size*1.25, $black, 400, 2rem*1.25);
+        @include font($h5-font-size*1.25, $black, 400, 2.3rem*1.25);
     }
 }
 
 .h5 {
-    @include font($h5-font-size, $black, 400, 2rem);
+    @include font($h5-font-size, $black, 400, 2.3rem);
     @media (min-width:$xl) {
-        @include font($h5-font-size*1.25, $black, 400, 2rem*1.25);
+        @include font($h5-font-size*1.25, $black, 400, 2.3rem*1.25);
     }
 }
 

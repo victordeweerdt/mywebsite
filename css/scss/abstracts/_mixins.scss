@@ -61,7 +61,7 @@
 @mixin next($background-color, $color-link) {
   @include flex(row);
   background-color:$background-color;
-  padding:12rem 0;
+  padding:14rem 0;
   transition-duration: 400ms;
   @media (max-width:$lg) {
       padding: 6rem 0;

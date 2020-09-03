@@ -79,10 +79,7 @@ body {
         margin:9rem 0 6rem;
     }
     &__header {
-        margin:0 0 2rem 0;
-        @media (max-width:$lg) {
-            margin:0 0 2rem 0;
-        }
+        margin:0;
     }
     &__elements {
         margin-top:6rem;
@@ -207,6 +204,10 @@ body {
     color:#C9C9C9;
 }
 
+#projets {
+    margin:10rem 0;
+}
+
 // Ajustements typography
 .big-p {
     font-size:3.5rem;
@@ -217,11 +218,7 @@ body {
     }
     @media (max-width:$med) {
         font-size:2rem;
-        line-height:3rem;
-    }
-    @media (max-width:$sm) {
-        font-size:1.5rem;
-        line-height:2.5rem;
+        line-height:2.8rem;
     }
 }
 .super-big-title {
@@ -241,8 +238,32 @@ body {
     display: flex;
     flex-direction: row;
     padding: 20rem 0;
+    @media (max-width:$med) {
+        @include flex(column);
+    }
     @media (max-width:$lg) {
         padding: 10rem 0;
+    }
+    h4 {
+        padding-bottom:1rem;
+        padding-right: 10%;
+    }
+}
+
+.bloc-100-toppadding {
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: row;
+    padding: 20rem 0 0;
+    @media (max-width:$med) {
+        @include flex(column);
+    }
+    @media (max-width:$lg) {
+        padding: 10rem 0 0;
+    }
+    h4 {
+        padding-bottom:1rem;
     }
 }
 
@@ -266,7 +287,8 @@ body {
         @include flex(column);
     }
     h4 {
-        padding-bottom:2rem;
+        padding-bottom:1rem;
+        padding-right: 10%;
     }
 }
 
@@ -304,6 +326,9 @@ body {
         touch-action: pan-y;
         overflow: hidden;
         cursor: grab;
+        @media (max-width:$med) {
+            height:350px;
+        }
         .gallery-slider {
             display: flex;
             overflow-x: scroll;
