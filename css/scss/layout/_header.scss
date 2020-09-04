@@ -28,6 +28,9 @@
     left: 0;
     right: 0;
     z-index: 1000;
+    .main-logo {
+        content: url("../../img/logo-white-victor-deweerdt.svg");
+    }
     a {
         color:$white;
         font-size: $font-size-base;

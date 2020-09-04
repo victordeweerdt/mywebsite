@@ -1,0 +1,28 @@
+#profil-picture {
+    width:100%;
+    @media (max-width:$lg) {
+        padding-top: 4rem;
+    } 
+}
+
+body {
+    background-color: $dark-bg;
+}
+
+#contact {
+    #cv {
+        padding-top: 2rem;
+    }
+    .container-nopadding {
+        .c-8 {
+            @include flex(column);
+            a {
+                padding-bottom:0rem;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $dark-bg;
+}

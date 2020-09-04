@@ -44,6 +44,16 @@ body {
     }
 }
 
+.container-nopadding {
+    @include container;
+    @include flex(row);
+    padding: 4rem 0;
+    @media (max-width:$lg) {
+        @include flex(column);
+        padding: 2rem 0;
+    }
+}
+
 .container-end {
     @include container;
     @include flex(row);
@@ -205,13 +215,17 @@ body {
 }
 
 #projets {
-    margin:10rem 0;
+    margin:9rem 0;
 }
 
 // Ajustements typography
 .big-p {
     font-size:3.5rem;
     line-height: 4.5rem;
+    @media (max-width:$xl) {
+        font-size:3rem;
+        line-height:4rem;
+    }
     @media (max-width:$lg) {
         font-size:2.5rem;
         line-height:3.5rem;
@@ -219,6 +233,10 @@ body {
     @media (max-width:$med) {
         font-size:2rem;
         line-height:2.8rem;
+    }
+    @media (max-width:$sm) {
+        font-size:1.6rem;
+        line-height:2.3rem;
     }
 }
 .super-big-title {
