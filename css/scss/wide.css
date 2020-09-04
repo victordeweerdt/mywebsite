@@ -1095,12 +1095,16 @@ body {
   }
 }
 
+.bloc-head {
+  margin: 9rem 0;
+}
+
 .bloc-100 {
   width: 90%;
   margin: 0 5%;
   display: flex;
   flex-direction: row;
-  padding: 20rem 0;
+  padding: 15rem 0;
 }
 @media (max-width: 640px) {
   .bloc-100 {
@@ -1123,7 +1127,7 @@ body {
   margin: 0 5%;
   display: flex;
   flex-direction: row;
-  padding: 20rem 0 0;
+  padding: 15rem 0 0;
 }
 @media (max-width: 640px) {
   .bloc-100-toppadding {
@@ -1141,7 +1145,7 @@ body {
 }
 
 .bloc-60 {
-  padding: 20rem 20%;
+  padding: 15rem 20%;
   width: 50%;
   margin: 0 5%;
   display: flex;
@@ -1172,7 +1176,7 @@ body {
 }
 
 .bloc-60-end {
-  padding: 20rem 20%;
+  padding: 15rem 20%;
   width: 50%;
   margin: 0 5%;
   display: flex;
